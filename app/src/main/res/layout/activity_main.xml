@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="true"
+    android:soundEffectsEnabled="true"
+    android:splitMotionEvents="true"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/searchImageButton"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mic"
+        android:tint="#00801717" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="190dp"
+            android:layout_height="62dp"
+            android:background="#00010101"
+            android:gravity="center"
+            android:text="Speak Now"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width = "wrap_content"
+        android:layout_alignParentBottom = "true"
+        android:layout_centerInParent = "true"
+        android:orientation = "vertical"
+        android:layout_height = "wrap_content">
+
+    </LinearLayout>
+
+</RelativeLayout>
